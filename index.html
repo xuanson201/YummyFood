@@ -1,0 +1,379 @@
+!DOCTYPE html
+html lang=vi
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleYUMMY FOOD - Vietnamese Street Food Menutitle
+    style
+         {
+            margin 0;
+            padding 0;
+            box-sizing border-box;
+            font-family 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color #1a1a1a;
+            color #e0d0b0;
+            line-height 1.6;
+        }
+        
+        .container {
+            max-width 1200px;
+            margin 0 auto;
+            padding 20px;
+        }
+        
+        header {
+            display flex;
+            justify-content space-between;
+            align-items center;
+            padding 20px 0;
+            border-bottom 2px solid #e0d0b0;
+            margin-bottom 30px;
+        }
+        
+        .logo {
+            display flex;
+            align-items center;
+        }
+        
+        .logo img {
+            height 80px;
+            margin-right 15px;
+        }
+        
+        .logo-text {
+            display flex;
+            flex-direction column;
+        }
+        
+        .logo-text h1 {
+            font-size 3rem;
+            color #e0d0b0;
+            margin 0;
+            line-height 1;
+        }
+        
+        .logo-text span {
+            font-size 1.5rem;
+            color #e0d0b0;
+        }
+        
+        .contact-info {
+            text-align right;
+        }
+        
+        .contact-info p {
+            margin 5px 0;
+            font-size 1.2rem;
+        }
+        
+        .contact-info a {
+            color #e0d0b0;
+            text-decoration none;
+        }
+        
+        .contact-info ahover {
+            text-decoration underline;
+        }
+        
+        .menu-container {
+            display grid;
+            grid-template-columns repeat(auto-fit, minmax(350px, 1fr));
+            gap 30px;
+        }
+        
+        .menu-section {
+            background-color #222;
+            border-radius 10px;
+            padding 20px;
+            box-shadow 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .section-title {
+            background-color #e0d0b0;
+            color #222;
+            display inline-block;
+            padding 8px 20px;
+            margin-bottom 20px;
+            font-size 1.5rem;
+            border-radius 5px;
+            text-transform uppercase;
+            font-weight bold;
+        }
+        
+        .menu-item {
+            display flex;
+            justify-content space-between;
+            margin-bottom 15px;
+            padding-bottom 10px;
+            border-bottom 1px dashed #444;
+        }
+        
+        .menu-itemlast-child {
+            border-bottom none;
+        }
+        
+        .item-price {
+            font-weight bold;
+            color #e0d0b0;
+        }
+        
+        .food-image {
+            width 100%;
+            border-radius 10px;
+            margin-top 20px;
+            max-height 250px;
+            object-fit cover;
+        }
+        
+        footer {
+            text-align center;
+            margin-top 50px;
+            padding 20px;
+            border-top 2px solid #e0d0b0;
+        }
+        
+        .leaf {
+            position absolute;
+            opacity 0.5;
+            z-index -1;
+        }
+        
+        .leaf1 {
+            top 10%;
+            right 5%;
+            transform rotate(45deg);
+        }
+        
+        .leaf2 {
+            bottom 20%;
+            left 5%;
+            transform rotate(-30deg);
+        }
+        
+        @media (max-width 768px) {
+            header {
+                flex-direction column;
+                text-align center;
+            }
+            
+            .contact-info {
+                text-align center;
+                margin-top 20px;
+            }
+            
+            .menu-container {
+                grid-template-columns 1fr;
+            }
+        }
+    style
+head
+body
+    div class=container
+        header
+            div class=logo
+                div class=logo-text
+                    h1YUMMYh1
+                    spanFOODspan
+                div
+            div
+            div class=contact-info
+                p☎️ 0978.687.277p
+                p🌐 a href=httpswww.facebook.comtrang.nguyen.132449 target=_blankwww.facebook.comtrang.nguyen.132449ap
+            div
+        header
+        
+        div class=menu-container
+            div class=menu-section
+                div class=section-titleSIGNATUREdiv
+                div class=menu-item
+                    spanNem lụi Huếspan
+                    span class=item-price35Kspan
+                div
+                div class=menu-item
+                    spanBánh mỳ quespan
+                    span class=item-price40K10cspan
+                div
+                div class=menu-item
+                    spanMỳ trộn Indomiespan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanKimpap thườngspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanKimpap chiênspan
+                    span class=item-price30Kspan
+                div
+                img src=apiplaceholder400250 alt=Vietnamese food class=food-image
+            div
+            
+            div class=menu-section
+                div class=section-titleĐỒ ĂN VẶTdiv
+                div class=menu-item
+                    spanXúc xíchspan
+                    span class=item-price10Kspan
+                div
+                div class=menu-item
+                    spanLạp xưởng thườngspan
+                    span class=item-price10Kspan
+                div
+                div class=menu-item
+                    spanLạp xưởng nướng đáspan
+                    span class=item-price15Kspan
+                div
+                div class=menu-item
+                    spanChân gà sốt tháispan
+                    span class=item-price35Kspan
+                div
+                div class=menu-item
+                    spanChân gà sả tắcspan
+                    span class=item-price35Kspan
+                div
+                div class=menu-item
+                    spanNgô chiênspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanKhoai tây chiênspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanKhoai lang kénspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanViên rau củspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanMực xoắnspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanCá viên chiênspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanNem chua ránspan
+                    span class=item-price5Kspan
+                div
+                div class=menu-item
+                    spanPhô mai quespan
+                    span class=item-price5Kspan
+                div
+                div class=menu-item
+                    spanĐùi gà KFCspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanCánh gà KFCspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanKhô gàspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanKhô bòspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanHướng dươngspan
+                    span class=item-price10Kspan
+                div
+                img src=apiplaceholder400250 alt=Street food class=food-image
+            div
+            
+            div class=menu-section
+                div class=section-titleĐỒ UỐNGdiv
+                div class=menu-item
+                    spanSữa chua xoài đá xayspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanSữa chua việt quấtspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanSữa chua dâu lắcspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanSữa chua chanh leospan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanSữa chua caféspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanTrà chanh truyền thốngspan
+                    span class=item-price15Kspan
+                div
+                div class=menu-item
+                    spanTrà xoài cam tắcspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanTrà xoài chanh leospan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanTrà đào chanh leospan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanTrà đào cam sảspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanNước sốt xoài organicspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanChanh tuyết (chanh leo)span
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanTrà gừngspan
+                    span class=item-price20Kspan
+                div
+                div class=menu-item
+                    spanNước dừa tươispan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanNước ép dứa xoàicamspan
+                    span class=item-price25-30Kspan
+                div
+                div class=menu-item
+                    spanTrà sữa chân trâu đường đenspan
+                    span class=item-price30Kspan
+                div
+                div class=menu-item
+                    spanTrà cúcspan
+                    span class=item-price25Kspan
+                div
+                div class=menu-item
+                    spanBạc sỉuspan
+                    span class=item-price25Kspan
+                div
+                img src=apiplaceholder400250 alt=Vietnamese drinks class=food-image
+            div
+        div
+        
+        footer
+            p© 2025 YUMMY FOOD - Vietnamese Street Foodp
+            p☎️ 0978.687.277  🌐 a href=httpswww.facebook.comtrang.nguyen.132449 target=_blankwww.facebook.comtrang.nguyen.132449ap
+        footer
+    div
+    
+    !-- Decorative elements --
+    img src=apiplaceholder5050 alt=Leaf class=leaf leaf1
+    img src=apiplaceholder5050 alt=Leaf class=leaf leaf2
+body
+html
